@@ -21,6 +21,7 @@
             </svg>
         </button>
 
-        <input {type} placeholder="********" class="block w-full py-2.5 text-gray-700 placeholder-gray-400/70 bg-white border border-gray-200 rounded-lg pl-5 pr-11 rtl:pr-5 rtl:pl-11 light:bg-gray-900 light:text-gray-300 light:border-gray-600 focus:border-blue-400 light:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40">
+        <input {type} placeholder="********" class="block w-full py-2.5 text-gray-700 placeholder-gray-400/70 bg-white border border-gray-200 rounded-lg pl-5 pr-11 rtl:pr-5 rtl:pl-11 light:bg-gray-900 light:text-gray-300 light:border-gray-600 focus:border-blue-400 light:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+        bind:value={valor}>
     </div>
 </div>
